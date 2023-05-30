@@ -12,5 +12,5 @@ var itemList = [
     ];
     
     describe("this test",function(){it("should return an array as expected ",function(){
-        assert.equal(findItemsOver(itemList,20),results,"must return"+results)
+        assert.deepEqual(findItemsOver(itemList,20),results,"must return"+results)
     });});

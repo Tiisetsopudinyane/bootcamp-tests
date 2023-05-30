@@ -14,6 +14,6 @@
         it("should return array of items over 20",function(){
         console.log(results);
         console.log(findItemsOver20(itemList))
-        assert.equal(results,findItemsOver20(itemList),"it must return "+results)
+        assert.deepEqual(results,findItemsOver20(itemList),"it must return "+results)
     });
     });
