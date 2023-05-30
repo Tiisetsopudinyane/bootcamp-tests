@@ -1,4 +1,4 @@
-describe("this test",function(){
+describe("this test fromWhere function",function(){
 it("should return cape town",function(){
         assert.equal(fromWhere("CA 987504"),"Cape Town","it must return cape town")
     });});

@@ -10,7 +10,7 @@
         {name : 'pears', qty : 37},
         {name : 'bananas', qty : 27},
     ];
-    describe("test findItemsOver20 function",function(){
+    describe("this test findItemsOver20 function",function(){
         it("should return array of items over 20",function(){
         console.log(results);
         console.log(findItemsOver20(itemList))

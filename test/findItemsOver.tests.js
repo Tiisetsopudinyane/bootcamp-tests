@@ -11,6 +11,6 @@ var itemList = [
         {name : 'bananas', qty : 27},
     ];
     
-    describe("this test",function(){it("should return an array as expected ",function(){
+    describe("this test findItemsOver function",function(){it("should return an array as expected ",function(){
         assert.deepEqual(findItemsOver(itemList,20),results,"must return"+results)
     });});

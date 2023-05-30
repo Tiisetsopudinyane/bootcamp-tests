@@ -16,7 +16,7 @@ var salesData = [
         {department : 'carpentry', sales : 16109, day : 'Friday'},
     ];
 
-describe("this test",function(){    
+describe("this test mostProfitableDepartment function",function(){    
 it("should return most profitable department",function(){
         assert.equal("outdoor",mostProfitableDepartment(salesData),"it should return most profitable department")
     });});
